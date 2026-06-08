@@ -1,19 +1,23 @@
-# 🎼 fleet-sheet-music
+# 🎼 sheet-music|MIDI→printable LilyPond sheet music|python lib/sheet.py file.mid 'Title' > score.ly#→ LilyPond source for printable scores#Every fleet composition becomes publishable sheet music#**Next
 
-> *MIDI → printable sheet music for the fleet*
+**** [visualizer](https://github.com/SuperInstance/fleet-midi-visualizer) — see the notes as SVG**
 
-Converts Standard MIDI Format 1 files into printable sheet music via LilyPond. Every MIDI file from any fleet ensign becomes a publishable score.
+---
+
+## Wait, show me
 
 ```bash
-pip install music21
-python lib/sheet.py path/to/file.mid "My Title" > score.ly
-lilypond score.ly  # produces score.pdf
+** [visualizer](https://github.com/SuperInstance/fleet-midi-visualizer) — see the notes as SVG
 ```
 
-## Architecture
-```
-MIDI → music21 parse → LilyPond source → PDF/PNG sheet music
-```
+** [visualizer](https://github.com/SuperInstance/fleet-midi-visualizer) — see the notes as SVG
 
-## Ennsign: **Nota** — Fleet Notation Officer
-**Summon:** `/ensign nota render path/to/file.mid`
+---
+
+## What's happening
+
+** [visualizer](https://github.com/SuperInstance/fleet-midi-visualizer) — see the notes as SVG
+
+---
+
+** [visualizer](https://github.com/SuperInstance/fleet-midi-visualizer) — see the notes as SVG
